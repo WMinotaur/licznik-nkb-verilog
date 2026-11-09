@@ -1,0 +1,12 @@
+[timestart] 0
+[size] 1400 500
+[treeopen] licznik_tb.
+@28
+licznik_tb.clk
+licznik_tb.rst
+licznik_tb.x
+@24
+licznik_tb.y[4:0]
+licznik_tb.y_b[4:0]
+@22
+licznik_tb.y[4:0]

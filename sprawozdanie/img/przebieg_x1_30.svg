@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="326" viewBox="0 0 600 326" font-family="DejaVu Sans Mono, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="22" font-size="14" font-weight="bold" fill="#222">x = 1 w stanie 30 → 31 → 0</text>
+<line x1="70.0" y1="40" x2="70.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="170.0" y1="40" x2="170.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="270.0" y1="40" x2="270.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="270.0" y1="276" x2="270.0" y2="282" stroke="#555"/>
+<text x="270.0" y="296" text-anchor="middle" fill="#555">700</text>
+<line x1="370.0" y1="40" x2="370.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="470.0" y1="40" x2="470.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="570.0" y1="40" x2="570.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<text x="590" y="314" text-anchor="end" fill="#555">czas [ns]</text>
+<text x="62" y="73.0" text-anchor="end" fill="#222">clk</text>
+<polyline points="70.0,82.0 120.0,82.0 120.0,56.0 170.0,56.0 170.0,82.0 220.0,82.0 220.0,56.0 270.0,56.0 270.0,82.0 320.0,82.0 320.0,56.0 370.0,56.0 370.0,82.0 420.0,82.0 420.0,56.0 470.0,56.0 470.0,82.0 520.0,82.0 520.0,56.0 570.0,56.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="119.0" text-anchor="end" fill="#222">rst</text>
+<polyline points="70.0,128.0 570.0,128.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="165.0" text-anchor="end" fill="#222">x</text>
+<polyline points="70.0,174.0 330.0,174.0 330.0,148.0 430.0,148.0 430.0,174.0 570.0,174.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="211.0" text-anchor="end" fill="#222">y[4:0]</text>
+<path d="M70.0,207.0 L73.0,194 L117.0,194 L120.0,207.0 L117.0,220 L73.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="95.0" y="211.0" text-anchor="middle" fill="#0d2f66">27</text>
+<path d="M120.0,207.0 L123.0,194 L217.0,194 L220.0,207.0 L217.0,220 L123.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="170.0" y="211.0" text-anchor="middle" fill="#0d2f66">28</text>
+<path d="M220.0,207.0 L223.0,194 L317.0,194 L320.0,207.0 L317.0,220 L223.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="270.0" y="211.0" text-anchor="middle" fill="#0d2f66">29</text>
+<path d="M320.0,207.0 L323.0,194 L417.0,194 L420.0,207.0 L417.0,220 L323.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="370.0" y="211.0" text-anchor="middle" fill="#0d2f66">30</text>
+<path d="M420.0,207.0 L423.0,194 L517.0,194 L520.0,207.0 L517.0,220 L423.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="470.0" y="211.0" text-anchor="middle" fill="#0d2f66">31</text>
+<path d="M520.0,207.0 L523.0,194 L567.0,194 L570.0,207.0 L567.0,220 L523.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="545.0" y="211.0" text-anchor="middle" fill="#0d2f66">0</text>
+<text x="62" y="257.0" text-anchor="end" fill="#222">y_b[4:0]</text>
+<path d="M70.0,253.0 L73.0,240 L117.0,240 L120.0,253.0 L117.0,266 L73.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="95.0" y="257.0" text-anchor="middle" fill="#0d2f66">27</text>
+<path d="M120.0,253.0 L123.0,240 L217.0,240 L220.0,253.0 L217.0,266 L123.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="170.0" y="257.0" text-anchor="middle" fill="#0d2f66">28</text>
+<path d="M220.0,253.0 L223.0,240 L317.0,240 L320.0,253.0 L317.0,266 L223.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="270.0" y="257.0" text-anchor="middle" fill="#0d2f66">29</text>
+<path d="M320.0,253.0 L323.0,240 L417.0,240 L420.0,253.0 L417.0,266 L323.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="370.0" y="257.0" text-anchor="middle" fill="#0d2f66">30</text>
+<path d="M420.0,253.0 L423.0,240 L517.0,240 L520.0,253.0 L517.0,266 L423.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="470.0" y="257.0" text-anchor="middle" fill="#0d2f66">31</text>
+<path d="M520.0,253.0 L523.0,240 L567.0,240 L570.0,253.0 L567.0,266 L523.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="545.0" y="257.0" text-anchor="middle" fill="#0d2f66">0</text>
+</svg>

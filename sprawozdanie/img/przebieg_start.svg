@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="326" viewBox="0 0 1000 326" font-family="DejaVu Sans Mono, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="22" font-size="14" font-weight="bold" fill="#222">Reset i początek sekwencji</text>
+<line x1="70.0" y1="40" x2="70.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="70.0" y1="276" x2="70.0" y2="282" stroke="#555"/>
+<text x="70.0" y="296" text-anchor="middle" fill="#555">0</text>
+<line x1="170.0" y1="40" x2="170.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="270.0" y1="40" x2="270.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="370.0" y1="40" x2="370.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="470.0" y1="40" x2="470.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="570.0" y1="40" x2="570.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="570.0" y1="276" x2="570.0" y2="282" stroke="#555"/>
+<text x="570.0" y="296" text-anchor="middle" fill="#555">50</text>
+<line x1="670.0" y1="40" x2="670.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="770.0" y1="40" x2="770.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="870.0" y1="40" x2="870.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<line x1="970.0" y1="40" x2="970.0" y2="276" stroke="#e3e3e3" stroke-width="1"/>
+<text x="990" y="314" text-anchor="end" fill="#555">czas [ns]</text>
+<text x="62" y="73.0" text-anchor="end" fill="#222">clk</text>
+<polyline points="70.0,82.0 120.0,82.0 120.0,56.0 170.0,56.0 170.0,82.0 220.0,82.0 220.0,56.0 270.0,56.0 270.0,82.0 320.0,82.0 320.0,56.0 370.0,56.0 370.0,82.0 420.0,82.0 420.0,56.0 470.0,56.0 470.0,82.0 520.0,82.0 520.0,56.0 570.0,56.0 570.0,82.0 620.0,82.0 620.0,56.0 670.0,56.0 670.0,82.0 720.0,82.0 720.0,56.0 770.0,56.0 770.0,82.0 820.0,82.0 820.0,56.0 870.0,56.0 870.0,82.0 920.0,82.0 920.0,56.0 970.0,56.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="119.0" text-anchor="end" fill="#222">rst</text>
+<polyline points="70.0,102.0 130.0,102.0 130.0,128.0 970.0,128.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="165.0" text-anchor="end" fill="#222">x</text>
+<polyline points="70.0,174.0 970.0,174.0" fill="none" stroke="#1f5fbf" stroke-width="1.6"/>
+<text x="62" y="211.0" text-anchor="end" fill="#222">y[4:0]</text>
+<path d="M70.0,207.0 L73.0,194 L117.0,194 L120.0,207.0 L117.0,220 L73.0,220 Z" fill="#fde7e7" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="95.0" y="211.0" text-anchor="middle" fill="#0d2f66">x</text>
+<path d="M120.0,207.0 L123.0,194 L217.0,194 L220.0,207.0 L217.0,220 L123.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="170.0" y="211.0" text-anchor="middle" fill="#0d2f66">0</text>
+<path d="M220.0,207.0 L223.0,194 L317.0,194 L320.0,207.0 L317.0,220 L223.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="270.0" y="211.0" text-anchor="middle" fill="#0d2f66">1</text>
+<path d="M320.0,207.0 L323.0,194 L417.0,194 L420.0,207.0 L417.0,220 L323.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="370.0" y="211.0" text-anchor="middle" fill="#0d2f66">2</text>
+<path d="M420.0,207.0 L423.0,194 L517.0,194 L520.0,207.0 L517.0,220 L423.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="470.0" y="211.0" text-anchor="middle" fill="#0d2f66">3</text>
+<path d="M520.0,207.0 L523.0,194 L617.0,194 L620.0,207.0 L617.0,220 L523.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="570.0" y="211.0" text-anchor="middle" fill="#0d2f66">4</text>
+<path d="M620.0,207.0 L623.0,194 L717.0,194 L720.0,207.0 L717.0,220 L623.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="670.0" y="211.0" text-anchor="middle" fill="#0d2f66">5</text>
+<path d="M720.0,207.0 L723.0,194 L817.0,194 L820.0,207.0 L817.0,220 L723.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="770.0" y="211.0" text-anchor="middle" fill="#0d2f66">6</text>
+<path d="M820.0,207.0 L823.0,194 L917.0,194 L920.0,207.0 L917.0,220 L823.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="870.0" y="211.0" text-anchor="middle" fill="#0d2f66">7</text>
+<path d="M920.0,207.0 L923.0,194 L967.0,194 L970.0,207.0 L967.0,220 L923.0,220 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="945.0" y="211.0" text-anchor="middle" fill="#0d2f66">8</text>
+<text x="62" y="257.0" text-anchor="end" fill="#222">y_b[4:0]</text>
+<path d="M70.0,253.0 L73.0,240 L117.0,240 L120.0,253.0 L117.0,266 L73.0,266 Z" fill="#fde7e7" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="95.0" y="257.0" text-anchor="middle" fill="#0d2f66">x</text>
+<path d="M120.0,253.0 L123.0,240 L217.0,240 L220.0,253.0 L217.0,266 L123.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="170.0" y="257.0" text-anchor="middle" fill="#0d2f66">0</text>
+<path d="M220.0,253.0 L223.0,240 L317.0,240 L320.0,253.0 L317.0,266 L223.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="270.0" y="257.0" text-anchor="middle" fill="#0d2f66">1</text>
+<path d="M320.0,253.0 L323.0,240 L417.0,240 L420.0,253.0 L417.0,266 L323.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="370.0" y="257.0" text-anchor="middle" fill="#0d2f66">2</text>
+<path d="M420.0,253.0 L423.0,240 L517.0,240 L520.0,253.0 L517.0,266 L423.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="470.0" y="257.0" text-anchor="middle" fill="#0d2f66">3</text>
+<path d="M520.0,253.0 L523.0,240 L617.0,240 L620.0,253.0 L617.0,266 L523.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="570.0" y="257.0" text-anchor="middle" fill="#0d2f66">4</text>
+<path d="M620.0,253.0 L623.0,240 L717.0,240 L720.0,253.0 L717.0,266 L623.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="670.0" y="257.0" text-anchor="middle" fill="#0d2f66">5</text>
+<path d="M720.0,253.0 L723.0,240 L817.0,240 L820.0,253.0 L817.0,266 L723.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="770.0" y="257.0" text-anchor="middle" fill="#0d2f66">6</text>
+<path d="M820.0,253.0 L823.0,240 L917.0,240 L920.0,253.0 L917.0,266 L823.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="870.0" y="257.0" text-anchor="middle" fill="#0d2f66">7</text>
+<path d="M920.0,253.0 L923.0,240 L967.0,240 L970.0,253.0 L967.0,266 L923.0,266 Z" fill="#eaf2ff" stroke="#1f5fbf" stroke-width="1.2"/>
+<text x="945.0" y="257.0" text-anchor="middle" fill="#0d2f66">8</text>
+</svg>

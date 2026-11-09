@@ -1,0 +1,85 @@
+VCD info: dumpfile licznik.vcd opened for output.
+   czas | wejscie | wyjscie (NKB) | wersja bramkowa | wynik
+--- reset ---
+   6 ns | rst   | y= 0 (00000) | y_b= 0 |
+--- T1: x=0, pelna sekwencja 0..30 i powrot do 0 ---
+  16 ns | x=0 | y= 1 (00001) | y_b= 1 | ok
+  26 ns | x=0 | y= 2 (00010) | y_b= 2 | ok
+  36 ns | x=0 | y= 3 (00011) | y_b= 3 | ok
+  46 ns | x=0 | y= 4 (00100) | y_b= 4 | ok
+  56 ns | x=0 | y= 5 (00101) | y_b= 5 | ok
+  66 ns | x=0 | y= 6 (00110) | y_b= 6 | ok
+  76 ns | x=0 | y= 7 (00111) | y_b= 7 | ok
+  86 ns | x=0 | y= 8 (01000) | y_b= 8 | ok
+  96 ns | x=0 | y= 9 (01001) | y_b= 9 | ok
+ 106 ns | x=0 | y=10 (01010) | y_b=10 | ok
+ 116 ns | x=0 | y=11 (01011) | y_b=11 | ok
+ 126 ns | x=0 | y=12 (01100) | y_b=12 | ok
+ 136 ns | x=0 | y=13 (01101) | y_b=13 | ok
+ 146 ns | x=0 | y=14 (01110) | y_b=14 | ok
+ 156 ns | x=0 | y=15 (01111) | y_b=15 | ok
+ 166 ns | x=0 | y=16 (10000) | y_b=16 | ok
+ 176 ns | x=0 | y=17 (10001) | y_b=17 | ok
+ 186 ns | x=0 | y=18 (10010) | y_b=18 | ok
+ 196 ns | x=0 | y=19 (10011) | y_b=19 | ok
+ 206 ns | x=0 | y=20 (10100) | y_b=20 | ok
+ 216 ns | x=0 | y=21 (10101) | y_b=21 | ok
+ 226 ns | x=0 | y=22 (10110) | y_b=22 | ok
+ 236 ns | x=0 | y=23 (10111) | y_b=23 | ok
+ 246 ns | x=0 | y=24 (11000) | y_b=24 | ok
+ 256 ns | x=0 | y=25 (11001) | y_b=25 | ok
+ 266 ns | x=0 | y=26 (11010) | y_b=26 | ok
+ 276 ns | x=0 | y=27 (11011) | y_b=27 | ok
+ 286 ns | x=0 | y=28 (11100) | y_b=28 | ok
+ 296 ns | x=0 | y=29 (11101) | y_b=29 | ok
+ 306 ns | x=0 | y=30 (11110) | y_b=30 | ok
+ 316 ns | x=0 | y= 0 (00000) | y_b= 0 | ok
+ 326 ns | x=0 | y= 1 (00001) | y_b= 1 | ok
+ 336 ns | x=0 | y= 2 (00010) | y_b= 2 | ok
+ 346 ns | x=0 | y= 3 (00011) | y_b= 3 | ok
+ 356 ns | x=0 | y= 4 (00100) | y_b= 4 | ok
+ 366 ns | x=0 | y= 5 (00101) | y_b= 5 | ok
+--- T2: x=1 w trakcie liczenia -> 31 (utrzymywane) ---
+ 376 ns | x=1 | y=31 (11111) | y_b=31 | ok
+ 386 ns | x=1 | y=31 (11111) | y_b=31 | ok
+ 396 ns | x=1 | y=31 (11111) | y_b=31 | ok
+--- T3: x=0 po 31 -> sekwencja od nowa ---
+ 406 ns | x=0 | y= 0 (00000) | y_b= 0 | ok
+ 416 ns | x=0 | y= 1 (00001) | y_b= 1 | ok
+ 426 ns | x=0 | y= 2 (00010) | y_b= 2 | ok
+--- T4: x=1 w stanie 30 ---
+ 436 ns | x=0 | y= 3 (00011) | y_b= 3 | ok
+ 446 ns | x=0 | y= 4 (00100) | y_b= 4 | ok
+ 456 ns | x=0 | y= 5 (00101) | y_b= 5 | ok
+ 466 ns | x=0 | y= 6 (00110) | y_b= 6 | ok
+ 476 ns | x=0 | y= 7 (00111) | y_b= 7 | ok
+ 486 ns | x=0 | y= 8 (01000) | y_b= 8 | ok
+ 496 ns | x=0 | y= 9 (01001) | y_b= 9 | ok
+ 506 ns | x=0 | y=10 (01010) | y_b=10 | ok
+ 516 ns | x=0 | y=11 (01011) | y_b=11 | ok
+ 526 ns | x=0 | y=12 (01100) | y_b=12 | ok
+ 536 ns | x=0 | y=13 (01101) | y_b=13 | ok
+ 546 ns | x=0 | y=14 (01110) | y_b=14 | ok
+ 556 ns | x=0 | y=15 (01111) | y_b=15 | ok
+ 566 ns | x=0 | y=16 (10000) | y_b=16 | ok
+ 576 ns | x=0 | y=17 (10001) | y_b=17 | ok
+ 586 ns | x=0 | y=18 (10010) | y_b=18 | ok
+ 596 ns | x=0 | y=19 (10011) | y_b=19 | ok
+ 606 ns | x=0 | y=20 (10100) | y_b=20 | ok
+ 616 ns | x=0 | y=21 (10101) | y_b=21 | ok
+ 626 ns | x=0 | y=22 (10110) | y_b=22 | ok
+ 636 ns | x=0 | y=23 (10111) | y_b=23 | ok
+ 646 ns | x=0 | y=24 (11000) | y_b=24 | ok
+ 656 ns | x=0 | y=25 (11001) | y_b=25 | ok
+ 666 ns | x=0 | y=26 (11010) | y_b=26 | ok
+ 676 ns | x=0 | y=27 (11011) | y_b=27 | ok
+ 686 ns | x=0 | y=28 (11100) | y_b=28 | ok
+ 696 ns | x=0 | y=29 (11101) | y_b=29 | ok
+ 706 ns | x=0 | y=30 (11110) | y_b=30 | ok
+ 716 ns | x=1 | y=31 (11111) | y_b=31 | ok
+ 726 ns | x=0 | y= 0 (00000) | y_b= 0 | ok
+--- T5: test wyczerpujacy funkcji przejsc (32 stany x 2) ---
+sprawdzono 64 kombinacje
+========================================
+OK: wszystkie testy przeszly
+tb/licznik_tb.v:100: $finish called at 790000 (1ps)
